@@ -44,7 +44,7 @@ body {
 .activity-title,
 .team-title {
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -82,9 +82,12 @@ body {
 .header-link:focus {
     color:var(--pressed-state);
  }   
+.contact {
+    font-style: normal;
+}
 .header-contact {
     font-style: normal;
-    color: currentColor;
+    color: var(--text); 
 }
 .header-contact:hover,
 .header-contact:focus {
@@ -97,7 +100,7 @@ body {
 }
 .hero-title {
     font-size: 56px;
-    line-height: 1.1;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color:var(--white-background); 
@@ -116,7 +119,19 @@ body {
 }
 .order-button:hover,
 .order-button:focus {
+    color: var(--white-background);
     background-color:var(--pressed-state);
+}
+
+/*=== Team === */
+.team {
+    background-color: var(--light);
+}
+.team-item {
+    background-color: var(--white-background);
+}
+.team-position {
+    font-size: 16px;
 }
 
 /* === Portfolio === */
