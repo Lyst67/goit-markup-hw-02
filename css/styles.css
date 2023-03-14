@@ -119,8 +119,8 @@ body {
 }
 .order-button:hover,
 .order-button:focus {
-    color: var(--white-background);
-    background-color:var(--pressed-state);
+    color: var(--pressed-state);
+   
 }
 
 /*=== Team === */
@@ -151,6 +151,9 @@ body {
 .filter-btn:focus {
 color: var(--white-background);
 background-color: var(--pressed-state);
+}
+.portfolio-text {
+    color: var(--text);
 }
 
 /*=== Footter ===*/
